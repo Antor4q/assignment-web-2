@@ -1,0 +1,36 @@
+@media screen and (max-width:600px) {
+    .banner{
+        width:335px;
+        height:500px;
+        margin:10px auto;
+        
+    }
+    .banner-input{
+        display: flex;
+        flex-direction: column;
+        width:80%;
+        padding:20px;
+        position:absolute;
+      
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -30%);
+    }
+    .banner-input input{
+        margin-bottom:10px;
+        margin-right:0px;
+    }
+    .banner-title{
+        font-size: 1.4rem;
+    }
+    .banner-content{
+        padding:32px 10px;
+    }
+    .btn-primary{
+        width:100%;
+    }
+   
+}
+@media screen and (min-width:992px) {
+    
+}
