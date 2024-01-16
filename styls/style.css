@@ -114,6 +114,28 @@ section{
     margin-bottom:30px;
    list-style-position: inside;
 }
+/* destination */
+.place-container{
+    margin:100px 135px;
+}
+.place-content{
+    text-align: center;
+    margin-bottom:48px;
+}
+.place-content h3{
+    font-size: var(--bold-size);
+    color:var(--dark-black);
+    margin-bottom:24px;
+}
+.place-content p{
+    font-weight: 400;
+    color:var(--light-gray);
+}
+.row-1, .row-2, .row-3{
+    display:flex;
+    gap:24px;
+   margin-bottom:24px;
+}
 /* card styles */
 .card-content{
     margin:100px 135px;

@@ -56,6 +56,27 @@
         width:335px;
         height:342px;       
       }
+      /* destination */
+      .place-container{
+        margin: 10px;
+       
+       
+        width:390px;
+      }
+      .row-1, .row-2, .row-3{
+        flex-direction: column;
+        margin-left:15px;
+        
+      }
+      .place-content{
+        margin-bottom:16px;
+      }
+      
+      .dest img{
+        width:335px;
+        height:176px;
+      }
+      /* card */
       .card-content{
         margin:10px;
         width:350px;
@@ -64,7 +85,7 @@
       }
       .main-card{
         flex-direction: column;
-     
+        
       }
       .card-3{
         
@@ -79,7 +100,7 @@
     margin:10px;
    margin-left:40px;
     width:250px;
-    
+    margin-bottom:16px;
    }
    .card-content{
     margin:10px;
