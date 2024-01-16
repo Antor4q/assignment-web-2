@@ -103,4 +103,32 @@
    .intro-footer{
     font-size: 1.3rem;
    }
+   /* subscribe */
+   .subscribe-container{
+    flex-direction: column;
+    margin:10px;
+   }
+   .save-up img{
+    width:370px;
+    height:300px;
+    margin-top:30px;
+   }
+   .subscribe{
+    width:335px;
+    padding:20px;
+   }
+  .deal p{
+    font-size: 1rem;
+  }
+   .deal h5{
+    font-size: 1.2rem;
+   }
+   .deal{
+    position:absolute;
+    bottom:0;
+    right:2;
+    transform:rotate(-30deg) ;
+    margin-bottom:40px;
+   }
+   
 }
