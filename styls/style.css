@@ -32,7 +32,42 @@
 header{
     max-width: 1440px;
     margin:0 auto;
+   
  }
+ /* nav bar */
+ .menu-icon{
+    display: none;
+    font-size: 1.5rem;
+ }
+ nav{
+    margin:50px 135px;
+    display:flex; 
+    align-items: center;
+    justify-content: space-between;
+ }
+ .nav-bar{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 2rem;
+    font-weight: 800;
+    
+ }
+ nav ul{
+    display:flex;
+    align-items: center;
+    padding:10px;
+    margin-top:35px;
+ }
+ nav li{
+    list-style: none;
+    margin-right:30px;
+ }
+ nav a{
+    text-decoration: none;
+    color:#424247;
+ }
+ /* banner */
 .banner{
     text-align: center;
     

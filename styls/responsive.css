@@ -3,7 +3,22 @@
         width:390px;
         align-items: center;
     }
-   
+   nav ul{
+    display:none;
+   }
+   .nav{
+    margin-left:10px;
+   }
+   .nav-bar{
+    position:absolute;
+   left:10%;
+   font-size: 1.3rem;
+   }
+   .menu-icon{
+    display:block;
+    right:10%;
+   position: absolute;
+   }
     .banner{
         width:335px;
         height:500px;
