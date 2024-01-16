@@ -12,6 +12,9 @@
     padding:0;
     font-family: 'Mulish', sans-serif;
 }
+.authority{
+    color: #FF5400;
+}
 .btn-primary{
     border-radius: 8px;
     background: #FF5400;
@@ -160,4 +163,39 @@ section{
     background: rgba(233, 68, 68, 0.05);
     margin:0px 300px;
     padding:45px 30px;
+}
+/* footer styles */
+footer{
+    max-width: 1440px;
+    height:500px;
+    margin:0 auto;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-container{
+    padding:130px 135px;
+}
+.intro-footer{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footer-title p{
+    color:var(--light-gray);
+    font-weight: 400;
+    margin-top:15px;
+    margin-bottom:30px;
+   
+}
+.social a{
+    color:#131318;
+    margin-right:20px;
+ 
+}
+.footer-container hr{
+    margin:50px 280px;
+    background: rgba(19, 19, 24, 0.10);
 }
