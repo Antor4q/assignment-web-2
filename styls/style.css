@@ -171,6 +171,19 @@ section{
     gap:24px;
    margin-bottom:24px;
 }
+.dest{
+    position:relative;
+}
+.place-1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:#FFF;
+    font-size: 1.75rem;
+  
+}
+
 /* card styles */
 .card-content{
     margin:100px 135px;

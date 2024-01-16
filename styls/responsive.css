@@ -73,10 +73,15 @@
       }
       /* destination */
       .place-container{
-        margin: 10px;
-       
-       
-        width:390px;
+      margin: 10px;
+      margin-left:0px;
+      margin-right:0px;
+      width:390px;
+      
+      }
+      .place-1 h4{
+        font-size: 1.2rem;
+        font-weight: 700;
       }
       .row-1, .row-2, .row-3{
         flex-direction: column;
@@ -88,9 +93,13 @@
       }
       
       .dest img{
-        width:335px;
+        width:360px;
         height:176px;
       }
+      .dest{
+        width:360px;
+      }
+     
       /* card */
       .card-content{
         margin:10px;
