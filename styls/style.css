@@ -183,6 +183,58 @@ section{
     font-size: 1.75rem;
   
 }
+/* scuba section styls */
+.scuba-container{
+    margin:100px 135px;
+    background: url('../Images/scuba3.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    height:600px;
+    text-align: center;
+    border-radius: 16px;
+}
+.scuba-intro{
+    padding:105px 285px 0px;
+}
+
+.scuba-title{
+    color:#FFF;
+    font-size: var(--bold-size);
+}
+.scuba-description{
+    color:#FFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.scuba-card img{
+    width:200px;
+    height:100px;
+    
+}
+.scuba-card{
+    width:250px;
+    margin-bottom:40px;
+    background-color:  rgba(255, 255, 255, 0.30);
+    padding:20px;
+    text-align: center;
+}
+.scuba-content{
+    display:flex;
+   align-items:flex-end;
+   justify-content:center;
+ 
+    padding:35px;
+}
+.scuba-card h3{
+    color:var(--dark-black);
+    font-size:1.25rem;
+}
+.scuba-card p{
+    color:var(--dark-black);
+    font-size: .8rem;
+    font-weight: 400;
+}
 
 /* card styles */
 .card-content{

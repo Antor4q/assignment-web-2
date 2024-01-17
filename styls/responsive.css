@@ -102,7 +102,43 @@
       .dest{
         width:360px;
       }
-     
+     /* scuba */
+     .scuba-container{
+      width:335px;
+      height:600px;
+      margin:10px auto;
+     }
+     .scuba-content{
+      flex-direction: column;
+      height:380px;
+      padding-bottom:10px;
+      padding-top:45px;
+      gap:0px;
+     }
+     .scuba-intro{
+      padding:10px;
+     }
+     .scuba-title{
+      font-size:var(--font-size);
+     }
+     .scuba-description{
+      font-size: .7rem;
+      padding:0px 40px;
+     }
+     .scuba-card{
+      height:130px;
+      padding:10px;
+      margin-bottom:0px;
+      
+     }
+     .scuba-card img{
+      width:180px;
+      height:80px;
+     }
+     .scuba-card h3{
+      font-size: 1rem;
+      
+     }
       /* card */
       .card-content{
         margin:10px;
